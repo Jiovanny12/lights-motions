@@ -1,4 +1,16 @@
 <digito> ::= 1|2|3|4|5|6|7|8|9|0
 // Probando
 
+<Identificar>::<Reflector>|<Fuente>
+<Reflector>::<Lumenes><colores>|<id>
+<Colores>::<ncolores><color>|<ncolores><color><color><color><color>
+<Lumenes>::<lumens>
+<Fuente>::<Presion>|<id>
+<id>::<numero>
+
+<ncolores>::=1|2|4
+<color>::=Amarillo|Rojo|Azul|Naranja|Blanco|Morado
+<numero>::0|1|2|3|4|5|6|7|8|9
+<Presion>::30|50|80
+<Lumens>::100|150|300|450
 
